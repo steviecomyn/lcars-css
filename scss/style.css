@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&display=swap");
+body {
+  background-color: #222;
+  color: #f9f9f9;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+body header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .heading-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .heading-wrapper h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body header .heading-wrapper:before {
+  content: "";
+  width: 100%;
+  background-color: #9c639c;
+  width: 800px;
+  height: 48px;
+  display: inline-block;
+}
+
+body header .heading-wrapper:after {
+  content: "";
+  background-color: #ce9cce;
+  width: 50px;
+  height: 48px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  display: inline-block;
+}
+
+body header span.left-curve {
+  background-color: #9c639c;
+  height: 200px;
+  width: 200px;
+  display: block;
+  border-top-left-radius: 50%;
+}
+
+body nav.left-vertical-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+
+body nav.left-vertical-menu ul li {
+  background-color: #ce9cce;
+  margin: 6px 0;
+}
+
+body nav.left-vertical-menu ul li a {
+  padding: 1em 1em;
+  display: block;
+  text-decoration: none;
+  color: #222;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+body nav.left-vertical-menu ul li a:hover {
+  background-color: #f6ef95;
+}
+/*# sourceMappingURL=style.css.map */
